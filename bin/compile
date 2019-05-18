@@ -17,7 +17,8 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 ENVFILE=$3
 BP_DIR=`cd $(dirname $0); cd ..; pwd`
-TARBALL_URL=https://s3.amazonaws.com/proscia-viewer/vips-8.3.0%2Bopenslide-3.4.1.tar.gz
+# TARBALL_URL=https://s3.amazonaws.com/proscia-viewer/vips-8.3.0%2Bopenslide-3.4.1.tar.gz
+TARBALL_URL=https://github.com/libvips/libvips/releases/download/v8.8.0-rc3/vips-8.8.0-rc3.tar.gz
 
 echo "Installing libvips" | arrow
 
